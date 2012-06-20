@@ -15,9 +15,11 @@ $wgExtensionsCredits['parserhook'][] = array(
 
 $wgHooks['ParserFirstCallInit'][] = 'PanScrollHooks::init';
 
-$wgAutoloadClasses['PanScrollHooks'] = dirname(__FILE__) . '/PanScroll.hooks.php';
+$dir = dirname( __FILE__ );
 
-#$wgExtensionMessagesFiles['PanScroll'] = dirname(__FILE__) . '/PanScroll.i18n.php';
+$wgAutoloadClasses['PanScrollHooks'] = $dir . '/PanScroll.hooks.php';
+
+$wgExtensionMessagesFiles['PanScroll'] = $dir . '/PanScroll.i18n.php';
 
 $wgResourceModules['ext.panscroll.core'] = array(
 	'scripts' => array(
@@ -30,8 +32,6 @@ $wgResourceModules['ext.panscroll.core'] = array(
 		'panscroll-js-init-error'
 	),
 	'group' => 'ext.panscroll',
-	'localBasePath' => dirname(__FILE__),
+	'localBasePath' => $dir,
 	'remoteExtPath' => 'PanScroll'
 );
-
-?>
