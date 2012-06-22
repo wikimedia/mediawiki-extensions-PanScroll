@@ -27,6 +27,27 @@ $messages['de'] = array(
 	'panscroll-desc' => 'Ermöglicht das Scrollen eines Elementes durch Verschieben (Ziehen und Ablegen)',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'panscroll-desc' => 'Permite o desprazamento dos elementos a través do uso da vista panorámica (arrastrar e soltar)',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'panscroll-desc' => 'Zmóžnja kulenje elementa přez přesunjenje a wotkładowanje',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'panscroll-desc' => 'Овозможува одење по елементот со поместување (стискање и пуштање)',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
