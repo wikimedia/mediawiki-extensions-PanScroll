@@ -27,6 +27,13 @@ $messages['de'] = array(
 	'panscroll-desc' => 'Ermöglicht das Scrollen eines Elementes durch Verschieben (Ziehen und Ablegen)',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'panscroll-desc' => 'Permite que un elemento pueda ser desplazado mediante el uso de "panning" (arrastrar & soltar)',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -34,11 +41,25 @@ $messages['gl'] = array(
 	'panscroll-desc' => 'Permite o desprazamento dos elementos a través do uso da vista panorámica (arrastrar e soltar)',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
 	'panscroll-desc' => 'Zmóžnja kulenje elementa přez přesunjenje a wotkładowanje',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'panscroll-desc' => 'Permitte displaciar elementos per le uso de movimento panoramic (traher e deponer)',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'panscroll-desc' => 'パン機能（ドラッグ&ドロップ）を使用して要素をスクロールできるようにする',
 );
 
 /** Macedonian (македонски)
