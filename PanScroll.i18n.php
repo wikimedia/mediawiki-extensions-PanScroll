@@ -69,6 +69,13 @@ $messages['mk'] = array(
 	'panscroll-desc' => 'Овозможува одење по елементот со поместување (стискање и пуштање)',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'panscroll-desc' => 'Maakt het mogelijk een element te verplaatsen via klikken en slepen',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
