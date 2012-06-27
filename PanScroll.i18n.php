@@ -27,6 +27,13 @@ $messages['de'] = array(
 	'panscroll-desc' => 'Ermöglicht das Scrollen eines Elementes durch Verschieben (Ziehen und Ablegen)',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'panscroll-desc' => 'Zmóžnja kulenje elementa pśez pśesunjenje a wótpołožowanje',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
