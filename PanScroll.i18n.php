@@ -69,6 +69,13 @@ $messages['ja'] = array(
 	'panscroll-desc' => 'パン機能（ドラッグ&ドロップ）を使用して要素をスクロールできるようにする',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'panscroll-desc' => '구성 요소가 패닝(드래그 & 드롭)의 사용을 통해 스크롤 할 수 있도록 허용',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
