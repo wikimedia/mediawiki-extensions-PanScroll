@@ -41,6 +41,13 @@ $messages['es'] = array(
 	'panscroll-desc' => 'Permite que un elemento pueda ser desplazado mediante el uso de "panning" (arrastrar & soltar)',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'panscroll-desc' => 'Permettre de faire défiler un élément au moyen du panorama (glisser & déposer)',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
