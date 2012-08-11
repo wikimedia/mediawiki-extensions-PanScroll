@@ -83,6 +83,13 @@ $messages['ko'] = array(
 	'panscroll-desc' => '구성 요소가 패닝(드래그 & 드롭)의 사용을 통해 스크롤 할 수 있도록 허용',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'panscroll-desc' => 'Määd_et müjjelesch, jät met „Aanpacke un eröm Träcke“ om Beldscherrem eröm ze schiebe.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
