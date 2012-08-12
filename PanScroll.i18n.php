@@ -55,6 +55,13 @@ $messages['gl'] = array(
 	'panscroll-desc' => 'Permite o desprazamento dos elementos a través do uso da vista panorámica (arrastrar e soltar)',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'panscroll-desc' => 'מאפשר גלילה דרך אלמנט באמצעות גרירה ושחרור',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
