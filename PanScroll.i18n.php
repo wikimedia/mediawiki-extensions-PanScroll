@@ -111,6 +111,13 @@ $messages['nl'] = array(
 	'panscroll-desc' => 'Maakt het mogelijk een element te verplaatsen via klikken en slepen',
 );
 
+/** Russian (русский)
+ * @author Kalan
+ */
+$messages['ru'] = array(
+	'panscroll-desc' => 'Позволяет сделать прокрутку перетаскиванием (паннингом) у элементов',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
