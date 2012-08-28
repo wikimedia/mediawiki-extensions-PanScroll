@@ -111,6 +111,13 @@ $messages['nl'] = array(
 	'panscroll-desc' => 'Maakt het mogelijk een element te verplaatsen via klikken en slepen',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'panscroll-desc' => "A përmëtt che n'element a sia scorù an dovrand ël panning (còpia & ancòla)",
+);
+
 /** Russian (русский)
  * @author Kalan
  */
