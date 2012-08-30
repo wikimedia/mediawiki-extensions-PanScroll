@@ -112,10 +112,11 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'panscroll-desc' => "A përmëtt che n'element a sia scorù an dovrand ël panning (còpia & ancòla)",
+	'panscroll-desc' => "A përmët ëd fé sfilé n'element a an dovrand ël panorama (tiré & lassé andé)",
 );
 
 /** Russian (русский)
