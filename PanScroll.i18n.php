@@ -111,6 +111,13 @@ $messages['nl'] = array(
 	'panscroll-desc' => 'Maakt het mogelijk een element te verplaatsen via klikken en slepen',
 );
 
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'panscroll-desc' => 'Umożliwia przewijanie elementu przy użyciu przesuwania (przeciągnij i upuść)',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
