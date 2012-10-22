@@ -15,7 +15,8 @@ $messages['en'] = array(
 	'panscroll-desc' => 'Allows an element to be scrolled through the use of panning (drag & drop)',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'panscroll-desc' => '{{desc}}',
 );
@@ -139,4 +140,3 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'panscroll-desc' => 'Nagpapahintulot sa isang elemento upang maibalumbon sa pamamagitan ng paggamit ng pagbabandeha (kaladkarin at ibagsak)',
 );
-
