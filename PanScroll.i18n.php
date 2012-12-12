@@ -140,3 +140,10 @@ $messages['ru'] = array(
 $messages['tl'] = array(
 	'panscroll-desc' => 'Nagpapahintulot sa isang elemento upang maibalumbon sa pamamagitan ng paggamit ng pagbabandeha (kaladkarin at ibagsak)',
 );
+
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'panscroll-desc' => 'Дозволяє зробити прокрутку елементів перетягуванням (drag & drop)',
+);
