@@ -21,6 +21,13 @@ $messages['qqq'] = array(
 	'panscroll-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'panscroll-desc' => 'Permite que pueda movese un elementu usando "panning" (arrastrar y soltar)',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
