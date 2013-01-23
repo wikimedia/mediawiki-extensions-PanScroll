@@ -154,3 +154,10 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'panscroll-desc' => 'Дозволяє зробити прокрутку елементів перетягуванням (drag & drop)',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'panscroll-desc' => '让一个元素可以通过拖放来卷轴',
+);
