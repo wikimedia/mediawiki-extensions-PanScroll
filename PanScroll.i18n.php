@@ -134,6 +134,13 @@ $messages['pms'] = array(
 	'panscroll-desc' => "A përmët ëd fé sfilé n'element a an dovrand ël panorama (tiré & lassé andé)",
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'panscroll-desc' => "Permette a 'n'elemende de essere scorse attraverse l'ause de pannelle (pigghie e trascine)",
+);
+
 /** Russian (русский)
  * @author Kalan
  */
