@@ -16,9 +16,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'panscroll-desc' => '{{desc}}',
+	'panscroll-desc' => '{{desc|name=Pan Scroll|url=http://www.mediawiki.org/wiki/Extension:PanScroll}}',
 );
 
 /** Asturian (asturianu)
@@ -88,7 +89,7 @@ $messages['ia'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'panscroll-desc' => 'パン機能（ドラッグ&ドロップ）を使用して要素をスクロールできるようにする',
+	'panscroll-desc' => 'パン機能 (ドラッグ&ドロップ) を使用して要素をスクロールできるようにする',
 );
 
 /** Korean (한국어)
