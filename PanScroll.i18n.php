@@ -169,3 +169,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'panscroll-desc' => '让一个元素可以通过拖放来卷轴',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'panscroll-desc' => '使元素可以透過拖放來卷軸',
+);
