@@ -96,7 +96,7 @@ $messages['ja'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'panscroll-desc' => '구성 요소가 패닝(드래그 & 드롭)의 사용을 통해 스크롤 할 수 있도록 허용',
+	'panscroll-desc' => '구성 요소가 패닝(드래그 & 드롭)의 사용을 통해 스크롤 할 수 있습니다',
 );
 
 /** Colognian (Ripoarisch)
