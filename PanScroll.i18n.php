@@ -85,6 +85,13 @@ $messages['ia'] = array(
 	'panscroll-desc' => 'Permitte displaciar elementos per le uso de movimento panoramic (traher e deponer)',
 );
 
+/** Italian (italiano)
+ * @author Gianfranco
+ */
+$messages['it'] = array(
+	'panscroll-desc' => 'Consente di scorrere un elemento tramite "panning" (drag & drop)',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
