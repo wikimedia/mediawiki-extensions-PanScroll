@@ -142,6 +142,13 @@ $messages['pms'] = array(
 	'panscroll-desc' => "A përmët ëd fé sfilé n'element a an dovrand ël panorama (tiré & lassé andé)",
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'panscroll-desc' => 'Permite um elemento ser deslocado do recurso de arrastar e soltar',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
