@@ -50,6 +50,13 @@ $messages['es'] = array(
 	'panscroll-desc' => 'Permite que un elemento pueda ser desplazado mediante el uso de "panning" (arrastrar & soltar)',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'panscroll-desc' => 'اجازه به یک عنصر برای متحرک شدن از طریق استفاده از سوژه (کشیدن و افتادن)',
+);
+
 /** French (français)
  * @author Gomoko
  */
