@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "panscroll-desc": "{{desc|name=Pan Scroll|url=http://www.mediawiki.org/wiki/Extension:PanScroll}}"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"panscroll-desc": "{{desc|name=Pan Scroll|url=http://www.mediawiki.org/wiki/Extension:PanScroll}}"
 }

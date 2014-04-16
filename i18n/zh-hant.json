@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Justincheng12345"
-        ]
-    },
-    "panscroll-desc": "使元素可以透過拖放來卷軸"
+	"@metadata": {
+		"authors": [
+			"Justincheng12345"
+		]
+	},
+	"panscroll-desc": "使元素可以透過拖放來卷軸"
 }
