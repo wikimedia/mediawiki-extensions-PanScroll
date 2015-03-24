@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"panscroll-desc": "{{desc|name=Pan Scroll|url=http://www.mediawiki.org/wiki/Extension:PanScroll}}"
+	"panscroll-desc": "{{desc|name=Pan Scroll|url=https://www.mediawiki.org/wiki/Extension:PanScroll}}"
 }
