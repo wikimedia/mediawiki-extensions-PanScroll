@@ -29,9 +29,6 @@ $wgResourceModules['ext.panscroll.core'] = array(
 	'styles' => array(
 		'css/panscroll.css'
 	),
-	'messages' => array(
-		'panscroll-js-init-error'
-	),
 	'group' => 'ext.panscroll',
 	'localBasePath' => $dir,
 	'remoteExtPath' => 'PanScroll'
