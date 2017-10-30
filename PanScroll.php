@@ -20,7 +20,6 @@ $dir = dirname( __FILE__ );
 $wgAutoloadClasses['PanScrollHooks'] = $dir . '/PanScroll.hooks.php';
 
 $wgMessagesDirs['PanScroll'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['PanScroll'] = $dir . '/PanScroll.i18n.php';
 
 $wgResourceModules['ext.panscroll.core'] = array(
 	'scripts' => array(
