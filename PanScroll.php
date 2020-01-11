@@ -1,34 +1,14 @@
 <?php
-
-if (!defined('MEDIAWIKI')) {
-	die('Not an entry point.');
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'PanScroll' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['PanScroll'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the PanScroll extension. ' .
+		'Please use wfLoadExtension() instead, ' .
+		'see https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the PanScroll extension requires MediaWiki 1.29+' );
 }
-
-$wgExtensionsCredits['parserhook'][] = array(
-	'path' => __FILE__,
-	'name' => 'PanScroll',
-	'version' => '0.2.0',
-	'author' => 'Mathias Lidal',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:PanScroll',
-	'descriptionmsg' => 'panscroll-desc'
-);
-
-$wgHooks['ParserFirstCallInit'][] = 'PanScrollHooks::init';
-
-$dir = dirname( __FILE__ );
-
-$wgAutoloadClasses['PanScrollHooks'] = $dir . '/PanScroll.hooks.php';
-
-$wgMessagesDirs['PanScroll'] = __DIR__ . '/i18n';
-
-$wgResourceModules['ext.panscroll.core'] = array(
-	'scripts' => array(
-		'js/panscroll.js'
-	),
-	'styles' => array(
-		'css/panscroll.css'
-	),
-	'group' => 'ext.panscroll',
-	'localBasePath' => $dir,
-	'remoteExtPath' => 'PanScroll'
-);
