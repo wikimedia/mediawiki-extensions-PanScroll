@@ -28,8 +28,8 @@
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "PanScroll"
+		"localBasePath": "resources/",
+		"remoteExtPath": "PanScroll/resources/"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "PanScrollHooks::init"
