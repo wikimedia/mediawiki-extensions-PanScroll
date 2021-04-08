@@ -14,7 +14,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"PanScrollHooks": "PanScroll.hooks.php"
+		"PanScrollHooks": "PanScrollHooks.php"
 	},
 	"ResourceModules": {
 		"ext.panscroll.core": {
