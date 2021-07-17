@@ -7,7 +7,6 @@
 	],
 	"rules": {
 		"vars-on-top": "warn",
-		"one-var": "warn",
 		"no-console": "warn",
 		"no-jquery/no-fade": "warn",
 		"no-jquery/no-global-selector": "warn"
