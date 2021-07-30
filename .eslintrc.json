@@ -6,7 +6,6 @@
 		"wikimedia/mediawiki"
 	],
 	"rules": {
-		"vars-on-top": "warn",
 		"no-console": "warn",
 		"no-jquery/no-fade": "warn",
 		"no-jquery/no-global-selector": "warn"
