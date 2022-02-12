@@ -17,7 +17,7 @@ class PanScrollHooks {
 	 * @return string|bool
 	 */
 	public static function renderFromTag( $input, array $args, Parser $parser, PPFrame $frame ) {
-		$parser->getOutput()->addModules( 'ext.panscroll.core' );
+		$parser->getOutput()->addModules( [ 'ext.panscroll.core' ] );
 		$parsedInput = $parser->internalParse( $input );
 		$blockSize = self::getConfigArgs( $args );
 
