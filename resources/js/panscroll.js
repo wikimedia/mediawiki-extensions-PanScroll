@@ -47,12 +47,12 @@ $( function () {
 				contentHeight = $( this ).children( '.panscroll-container' ).outerHeight( true );
 
 			if ( styleWidth.indexOf( '%' ) !== -1 ) {
-				var ratioWidth = parseInt( styleWidth.substring( 0, styleWidth.length - 1 ) );
+				var ratioWidth = parseInt( styleWidth.slice( 0, Math.max( 0, styleWidth.length - 1 ) ) );
 				$( this ).width( contentWidth * ratioWidth / 100 );
 			}
 
 			if ( styleHeight.indexOf( '%' ) !== -1 ) {
-				var ratioHeight = parseInt( styleHeight.substring( 0, styleHeight.length - 1 ) );
+				var ratioHeight = parseInt( styleHeight.slice( 0, Math.max( 0, styleHeight.length - 1 ) ) );
 				$( this ).height( contentHeight * ratioHeight / 100 );
 			}
 			$( this ).fadeIn();
