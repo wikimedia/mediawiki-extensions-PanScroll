@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"panscroll-desc": "Permettre de faire défiler un élément au moyen du panorama (glisser & déposer)"
+	"panscroll-desc": "Permettre de faire défiler un élément au moyen du panorama (glisser et déposer)"
 }
