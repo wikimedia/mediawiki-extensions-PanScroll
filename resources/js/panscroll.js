@@ -1,20 +1,20 @@
-$( function () {
+$( () => {
 
 	function disablePanScrolling( elem ) {
 		$( elem ).off( 'mousemove' );
 	}
 
 	function enablePanScrolling( elem, event ) {
-		var mx = event.clientX,
+		let mx = event.clientX,
 			my = event.clientY;
 
 		console.log( 'mx: ' + mx + ' my: ' + my );
 
-		$( elem ).on( 'mousemove', function ( mmevent ) {
+		$( elem ).on( 'mousemove', ( mmevent ) => {
 			mx = mmevent.clientX - mx;
 			my = mmevent.clientY - my;
 
-			var maxLeft = -1 * ( $( elem ).children().first().outerWidth( true ) - $( elem ).parent().outerWidth( true ) ),
+			const maxLeft = -1 * ( $( elem ).children().first().outerWidth( true ) - $( elem ).parent().outerWidth( true ) ),
 				maxTop = -1 * ( 10 + $( elem ).outerHeight( true ) - $( elem ).parent().outerHeight( true ) ),
 
 				position = $( elem ).position();
@@ -38,21 +38,21 @@ $( function () {
 		} );
 	}
 
-	setInterval( function () {
+	setInterval( () => {
 		$( '.panscroll-element' ).each( function () {
-			var styleWidth = $( this )[ 0 ].style.width,
+			const styleWidth = $( this )[ 0 ].style.width,
 				styleHeight = $( this )[ 0 ].style.height,
 
 				contentWidth = $( this ).children( '.panscroll-container' ).outerWidth( true ),
 				contentHeight = $( this ).children( '.panscroll-container' ).outerHeight( true );
 
-			if ( styleWidth.indexOf( '%' ) !== -1 ) {
-				var ratioWidth = parseInt( styleWidth.slice( 0, Math.max( 0, styleWidth.length - 1 ) ) );
+			if ( styleWidth.includes( '%' ) ) {
+				const ratioWidth = parseInt( styleWidth.slice( 0, Math.max( 0, styleWidth.length - 1 ) ) );
 				$( this ).width( contentWidth * ratioWidth / 100 );
 			}
 
-			if ( styleHeight.indexOf( '%' ) !== -1 ) {
-				var ratioHeight = parseInt( styleHeight.slice( 0, Math.max( 0, styleHeight.length - 1 ) ) );
+			if ( styleHeight.includes( '%' ) ) {
+				const ratioHeight = parseInt( styleHeight.slice( 0, Math.max( 0, styleHeight.length - 1 ) ) );
 				$( this ).height( contentHeight * ratioHeight / 100 );
 			}
 			$( this ).fadeIn();
